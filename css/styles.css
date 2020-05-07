@@ -1,14 +1,53 @@
-/*основной цвет текста #757575*/
-/* вторичный цвет текста #212121*/
-/* цвет при наведении #2196F3*/
-/* в футере rgba(255, 255, 255, 0.6);*/
-/* акцент #2196F3*/
-
-/*  */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --title-text-color-second: #ffffff;
+  --accent-color: #2196f3;
+  --footer-addres-color: rgba(255, 255, 255, 0.6);
+}
 body {
   background: #e5e5e5;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 ul {
   list-style: none;
+}
+/*Site nav*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.addres .link {
+  color: var(--primary-text-color);
+}
+.addres .link:hover,
+.addres .link:focus {
+  color: var(--accent-color);
+}
+/*Hero*/
+.hero-title {
+  color: var(--title-text-color);
+}
+.hero-link {
+}
+/*Sections*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+/*Features*/
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/*Products*/
+.product-list .title {
+  color: var(--title-text-color-second);
+}
+/*Team*/
+.team-list .title {
+  color: var(--title-text-color);
 }
