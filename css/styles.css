@@ -13,7 +13,12 @@ ul {
   list-style: none;
 }
 /*Site nav*/
-
+.logo {
+  color: var(--accent-color);
+}
+.part {
+  color: (var(--title-text-color);
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -30,9 +35,10 @@ ul {
 }
 /*Hero*/
 .hero-title {
-  color: var(--title-text-color);
+  color: #ffffff;
 }
-.hero-link {
+.hero .hero-link {
+color: var(--title-text-color-second);
 }
 /*Sections*/
 
