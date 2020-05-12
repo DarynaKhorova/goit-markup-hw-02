@@ -25,6 +25,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .part {
   color: var(--title-text-color);
@@ -131,12 +132,14 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer-address .link {
   color: var(--footer-address-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  font-style: normal;
 }
 .join-us {
   color: var(--title-text-color-second);
@@ -149,6 +152,7 @@ footer {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
+  text-align: center;
 }
 /*Projects*/
 .filters .button {
